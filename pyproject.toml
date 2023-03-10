@@ -1,11 +1,12 @@
 [tool.poetry]
 name = "poetry-test-dependent-on-lfs-package"
 version = "0.1.0"
-description = "Poetry package that contains a file stored with git-lfs."
+description = "This is a poetry package that requires the test package poetry-test-lfs."
 authors = ["Arktur <arktur@github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+poetry-test-lfs = {git = "git@github.com:archtur/poetry-test-lfs.git"}
 
 [tool.poetry.dev-dependencies]
 
