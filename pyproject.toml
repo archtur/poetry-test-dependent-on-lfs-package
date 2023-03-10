@@ -6,7 +6,7 @@ authors = ["Arktur <arktur@github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-poetry-test-lfs = {git = "git@github.com:archtur/poetry-test-lfs.git"}
+poetry-test-lfs = {git = "https://github.com/archtur/poetry-test-lfs.git"}
 
 [tool.poetry.dev-dependencies]
 
